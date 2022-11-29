@@ -22,5 +22,5 @@ test("renders 3 list items", () => {
   render(<App />);
   const listitems = screen.getAllByRole("listitem");
 
-  expect(listitems.length).toBe(3);
+  expect(listitems.length).toEqual(3);
 });
